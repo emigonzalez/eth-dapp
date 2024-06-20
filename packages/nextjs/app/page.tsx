@@ -20,7 +20,7 @@ const Home: NextPage = () => {
             <span className="block text-4xl font-bold">TETI</span>
           </h1>
           <div className="flex justify-center items-center space-x-2">
-            <p className="my-2 font-medium">Direccion:</p>
+            <p className="my-2 font-medium">Wallet:</p>
             <Address address={connectedAddress} />
           </div>
           <p className="text-center text-lg">
